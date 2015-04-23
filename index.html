@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>soda.camp</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- css: -->
+    <!-- plz don't spy ... link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700"-->
+    <link rel="stylesheet" href="3rd/iconfont/css/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="3rd/socialfont/css/socicon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <!-- js: -->
+    <script src="3rd/jquery-1.11.2.min.js"></script>
+    <script src="script.js"></script>
+    <!-- handsontable:
+    <script src="http://handsontable.com/dist/handsontable.full.js"></script>
+    <link rel="stylesheet" media="screen" href="http://handsontable.com/dist/handsontable.full.css"> -->
+  </head>
+  <body>
+    <div class="head">
+      <!-- /a.l (left top menu)-->
+      <div class="r">
+        <input id="explore" type="checkbox" name="explore">
+        <label for="explore" data-quicktap><small>~jump</small></label>
+        <nav>
+          <ul class="menu">
+            <li><a href="#about" target="_blank">About</a></li>
+            <!--<li><a href="http://blog.soda.camp">News</a></li>
+            <li><a href="#intrigue" target="_blank">Manifest</a></li>-->
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#inspire">Inspired</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="social"><a href="http://twitter.com/sodacamper">a</a></li>
+            <!--<li class="social"><a href="#facebook">b</a></li>
+            <li class="social"><a href="#instagram">x</a></li>
+            <li class="social"><a href="#linkedin">j</a></li>-->
+          </ul>
+          <!-- /menu-->
+        </nav>
+        <!-- /nav (site navigation holder)-->
+      </div>
+      <!-- /r (right top menu)-->
+    </div>
+    <!-- /head-->
+    <div class="main">
+      <section style="background-image:url('images/33507074_44552399bd_o.jpg')" class="cover mod-light">
+        <figure>
+          <figcaption>
+            <p style="text-align:left">
+              <img src="images/header.png" alt="Welcome to the School of (Anything-Goes) Open Data Arts.">
+              <br><br><b>welcomes you!</b>
+              <small>and thanks <a href="https://www.flickr.com/photos/tiarescott/33507074/in/photolist-3XJub-aKVQMM-4TQ88-twr8M-7QpPTD-cvZEc-nTRvKP-7chUCe-7cmKtd-6euzD6-6eyFhf-6eyFqS-6euyUp-6eyHzW-3C4qK-iBp7o-2EF5kN-o6D8gn-2EF6rA-2EACjR-2EF3nY-2EAM88-2EADE8-iBp7m-4TQ7d-ap9cym-9wnkNr-iBp7n-7r41LM-GC8RE-5wqrGg-88jGsD-88nUPj-88nUTW-88nUHo-GecXh-twhjk-cvZF6-2EF6Pj-6eyGuA-3C4qJ-2EAGrt-5T4jX7-6eyJvb-cw3aC-2EAFXF-2EF78U-2EAEHM-2EF4GE-8tAWHa" target="_blank">tiarescott</a> for the photo from Ueno Park (CC BY 2.0)</small>
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+      <!-- /section.cover (mods: light)-->
+      <section class="call" id="about">
+        <h2>School of what, exactly?</h2>
+        <p>
+          soda.camp is a fusion of <a href="http://schoolofdata.org/courses/">data literacy</a>
+          and <a href="http://www.complexification.net/gallery/">computational art</a>. This is an
+          initiative of <a href="http://en.wikipedia.org/wiki/Socratic_questioning">socratic learning</a>,
+          supporting <a href="http://encyclopedia2.thefreedictionary.com/Communal+Movement">communal movements</a>,
+          <a href="http://encyclopedia2.thefreedictionary.com/Communal+Movement">citizen ethics</a> and
+          <a href="http://okfn.org">open knowledge</a>. 
+          For examples of what we mean by 'Open Data Arts', scroll down to the Gallery to see works
+          produced with intent to provoke or inspire, where the underlying data and code is 
+          openly available for republishing, remixing and other uses.
+        </p><p>
+          This initiative is closely aligned with the Swiss association
+          <a href="http://opendata.ch">Opendata.ch</a>.
+          For information on upcoming events, visit <a href="http://make.opendata.ch">#makeopendata</a>
+          and <a href="http://make.opendata.ch/school">School of Data Switzerland</a>,
+          follow <a href="https://twitter.com/sodacamper">@sodacamper</a> -
+          or <a href="#contact">get in touch</a>.
+        </p><p>
+          <i class="if-keypad dropcap"></i>
+        </p>
+      </section>
+      <!-- /section.call -->
+      <!--<section class="call" id="intrigue">
+        <h2>I'm intrigued, tell me more.</h2>
+        <p>
+          Let us meet to engage in discourse, broaden our outlook, and find questions worth taking the time to know deeply. Help yourself and help each other find, scrape, clean, analyse, visualize, correlate, explain, republish the mountains of data "out there" and "in here". Let out your individual creativity, make evocative statements and works of art where <b>the data is the message</b>.
+        </p><p>
+          First workshop: 1 / 5 / 2 &times; 10<sup>3</sup> + 10 + 10 &divide; 2 at 10 to 10:00
+        </p>
+        <p>
+          <button onclick="jQuery('#manifest').slideDown(); jQuery(this).hide()">MANIFEST</button>
+          <div id="manifest" style="display:none">
+<blockquote><p>Ich sah das Bild, das in den Augen des Teichhuhns sich bricht, wenn es untertaucht: Die tausend Ringe, die jedes kleine Leben einfassen, das Blau der flüsternden Himmel, das der See trinkt, das verzückte Auftauchen an einem anderen Ort - erkennt, meine Freunde, was Bilder sind: das Auftauchen an einem anderen Ort.</p><p><em>I saw what the moorhen sees as it dives: the thousand rings that encircle each little life, the blue of the whispering sky swallowed by the lake, the enraptured moment of surfacing in another place. Know, my friends, what images are: the experience of surfacing in another place.</em></p><p>Franz Marc, <a href="http://www.zeno.org/Kunst/M/Marc,+Franz/Schriften/Aus+der+Kriegszeit/35.+Die+100+Aphorismen/82." class="tc-tiddlylink-external" target="_blank">Die 100 Aphorismen</a> (1880 - 1916), English translation by <a href="http://italiangreyhounds.org/errata/2012/02/08/franz-marcs-birthday-aphorismen-82/" class="tc-tiddlylink-external" target="_blank">Jean Marie Carey</a></p></blockquote><p>This is not a manifesto. It's one expression of an idea that's been ringing in the minds of a few of us applying our time and skills to create charts and data visualizations over the years. Roughly put, the idea is that, as with the Blue Riders, the way we are expected to write stories with data has become glamourised, made routine, standardized. People have to see a fact statement, infographic or an interactive piece and immediately "get it". And within five minutes, move on to the next.</p><p>Yet, the data speaks to us in its own language, like the blue of the whispering sky. We mix it with mathematics like the painter mixes colours. We dream and construct worlds out of data, and our dreams have a truth that may or may not be scientifically correct, but it is there to be perceived, interpreted and judged. <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#SodaCamp">SodaCamp</a>'ers can reject the mind numbing rigidity of the way facts are being presented, trends diagrammed, visualizations trimmed for mass consumption. Work towards freedom of expression and empower ourselves and our audience to experience the data with feelings, emotions AND judgement.</p><p>In brief: let's put more art into our data science!</p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="http://wiki.soda.camp/#SodaCamp">SodaCamp Wiki</a>.</p><pre><code>A sea of facts submerges awareness
+Mass thoughts, forged emotions overwhelm sanity
+In order to learn, reflect, revitalise
+We are collecting and creating stories
+Playing fingers mix colours, fishing chaos
+Discovering ways to be safe, in focus
+A place to calm worried consciousness
+To practice the art of data
+And to remind each other
+The data is the message</code></pre>
+<p><img src="http://www.lenbachhaus.de/uploads/tx_januscarousel/80_Gruppenfoto_Blauer-Reiter_940.jpg">Mitglieder des '<a href="http://en.wikipedia.org/wiki/Der_Blaue_Reiter" class="tc-tiddlylink-external" target="_blank">Blauen Reiter</a>' by Gabriele Münter, via <a href="http://www.lenbachhaus.de/index.php?id=34" class="tc-tiddlylink-external" target="_blank">Lenbachhaus</a></p>
+
+          </div>
+        </p>
+      </section>-->
+      <!-- /section.call -->
+      <section class="mediagrid mod-pad mod-fixed mod-hover" id="gallery">
+        <h3>Gallery</h3>
+        
+        <article data-zoom-on="projects/20Hzcropped_smaller1.jpg">
+          <div style="background-image:url('projects/20Hzcropped_smaller1.jpg')" class="case">
+            <div class="titles">
+              <h2><a href="http://semiconductorfilms.com/art/20hz/">20 Hz</a> by Semiconductor Films</h2>
+              <p>"A geo-magnetic storm" visualised</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/lifelogging-one-human-heartbeat.jpg" class="media-up mod-r">
+          <div style="background-image:url('projects/lifelogging-one-human-heartbeat.jpg')" class="case">
+            <div class="titles">
+              <h2><a href="http://datatelling.com/projects/onehumanheartbeat/">One Human Heartbeat</a> by Jen Lowe</h2>
+              <p>"I've put my heartbeat on the internet."</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/martin_krzywinski.png">
+          <div style="background-image:url('projects/martin_krzywinski.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://mkweb.bcgsc.ca/pi/piday2015">Celebrate π Day</a> by Martin Krzywinski</h2>
+              <p>"This year I use a treemap approach to encode the digits in the style of Piet Mondrian."</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/picturethis.png">
+          <div style="background-image:url('projects/picturethis.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://make.opendata.ch/wiki/project:portrait_domain">Portrait Domain</a></h2>
+              <p>identity replacement with archival material</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/dataalps.png">
+          <div style="background-image:url('projects/dataalps.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://opendata.utou.ch/alps/">Open Data Alps</a></h2>
+              <p>visualiser of geographically irreverent data</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/cake.png">
+          <div style="background-image:url('projects/cake.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://opendata.utou.ch/cake/">Let there be data cake!</a></h2>
+              <p>(and fruitcake and muffins too, please)</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/threeffitti.png">
+          <div style="background-image:url('projects/threeffitti.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://opendata.utou.ch/graff/zuri3d.html">threeffitti</a></h2>
+              <p>a virtual city of real street art</p>
+            </div>
+          </div>
+        </article>
+        <article data-zoom-on="projects/borndied.png" class="media-fill">
+          <div style="background-image:url('projects/borndied.png')" class="case">
+            <div class="titles">
+              <h2><a href="http://opendata.utou.ch/borndied/">born/died</a></h2>
+              <p>birth rates and death rates animated</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- /row-->
+      <!-- /section.mediagrid (mods: pad, fixed, hover)-->
+      <section class="call" id="inspire">
+        <h2>We greet and are inspired by</h2>
+        <p>
+          <a href="http://schoolofdata.org/">School of Data</a> /
+          <a href="http://www.meetup.com/Hacks-Hackers-Zurich/">Hacks/Hackers</a> /
+          <a href="http://demodays.org">Echtzeit</a> /
+          <a href="http://okfnlabs.org">@OKFNLabs</a>
+        </p><p>
+          <a href="http://make.opendata.ch">MAKE</a> /
+          <a href="http://www.ecal.ch/">éc a l</a> /
+          <a href="https://www.zhdk.ch/">ZHdK</a> /
+          <a href="http://theodi.org/culture">ODI</a> /
+          <a href="https://www.media.mit.edu/">MITml</a> /
+          <a href="http://golancourses.net/2014/resources-and-tools/academic-integrity/">IACD</a> /
+          <a href="http://sfpc.io/">SFPC</a> /
+          <a href="http://ethics.journalism.wisc.edu/resources/digital-media-ethics/">DME</a>
+        </p><p>
+          <a href="http://www.yrs.io/">Rewired State</a> /
+          <a href="http://www.citizenethics.org.uk/">Citizen Ethics</a> /
+          <a href="http://www.wisecrack.co/8bitphilosophy/">8-bit Philosophy</a>
+        </p>
+      </section>
+      <!-- /section.call -->
+      <section class="mod-wide"><img src="images/Saladeaula_itapevi_CROP.jpg" alt=""></section>
+      <!-- /section.mod-wide-->
+      <section class="call" id="contact">
+        <h2>Say hello</h2>
+        <!--<article class="pane mod-nb mod-dark">
+          <form action="contact.php" method="post" class="aform">
+            <fieldset>
+              <div class="aform-item">
+                <input type="text" name="name" data-placeholder="A moniker" data-help="Your name"/>
+              </div>
+              <div class="aform-item">
+                <input type="email" name="email" data-placeholder="Box o' sp@m *" data-help="Your email address" data-email="Please enter a valid email"/>
+              </div>
+              <div class="aform-item">
+                <textarea name="message" data-placeholder="Something else? *" data-help="Drop us a few lines" data-required="Please enter your message"></textarea>
+              </div>
+              <div data-submit="data-submit" class="btn"><em>Ciao!</em><i class="if-paper-plane"></i></div>
+            </fieldset>
+          </form>
+        </article>-->
+        <iframe src="http://utou.ch/" frameborder=0 style="width:100%; height:500px"></iframe>
+      </section>
+      <!-- /section.call -->
+      <section class="call">
+        <img src="images/10centsoda.jpg">
+        <p><br><em>Thanks for visiting! Have an ice cold soda.</em> <font color="#a42">&#x2661;</font></p>
+      </section>
+      <!-- /section.call -->
+    </div>
+    <small style="opacity:0.5"><sup>&bull;</sup>punɥ</small>
+    <!-- /main-->
+  </body>
+</html>
