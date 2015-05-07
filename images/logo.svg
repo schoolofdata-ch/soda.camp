@@ -15,9 +15,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/var/www/datalets/sodacamp/images/logohd.png"
-   inkscape:export-xdpi="84.980003"
-   inkscape:export-ydpi="84.980003">
+   inkscape:export-filename="/var/www/sodacamp/images/sodacamp.png"
+   inkscape:export-xdpi="199.90576"
+   inkscape:export-ydpi="199.90576">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,11 +27,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-58.906693"
-     inkscape:cy="324.18524"
+     inkscape:zoom="1"
+     inkscape:cx="320.2282"
+     inkscape:cy="292.30962"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -46,9 +46,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="soda"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="display:inline">
     <rect
        style="color:#000000;fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3133"
@@ -107,5 +108,42 @@
        id="path3110"
        d="m 253.76422,695.12444 c 1.19151,-1.67563 2.69266,-3.18317 4.07407,-4.75571 0.68446,-0.788 0.3521,-0.40694 0.99673,-1.14337 0.10308,-0.15823 2.89904,1.00891 2.79593,1.16714 l 0,0 c -0.55941,0.7618 -0.26462,0.35303 -0.88083,1.22791 -0.69768,0.88422 -1.44769,1.71815 -2.22681,2.5575 -0.32648,0.35171 -1.19061,1.29989 -1.55755,1.65315 -0.18108,0.17434 -0.38556,0.33221 -0.57834,0.49831 -0.10645,0.14845 -2.72965,-1.05647 -2.6232,-1.20493 z"
        inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="camp">
+    <rect
+       y="626.35205"
+       x="348.63269"
+       height="169.4467"
+       width="169.4467"
+       id="rect3191"
+       style="color:#000000;fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:71.33602905px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#408c10;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="391.69891"
+       y="808.10571"
+       id="text3187"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.99848808,-0.05496867,0.05496867,0.99848808,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3189"
+         x="391.69891"
+         y="808.10571"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#408c10;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">CAMP</tspan></text>
+    <path
+       style="color:#000000;fill:#50a024;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 325.47718,729.51298 436.93493,621.11646 c 0,0 2.38049,32.78571 21.55866,53.90783 20.18996,22.23647 41.64762,31.8499 41.64762,31.8499 z"
+       id="path3195"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc" />
+    <path
+       style="color:#000000;fill:#408c10;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 326,744.36218 87.57265,-118 c 0,0 0.93162,33.17925 30.74359,59.35849 C 474.12821,711.89992 544,732.84331 544,732.84331 z"
+       id="path3193"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc" />
   </g>
 </svg>
