@@ -11,3 +11,5 @@
 section p { background-color: white; padding: 1em; }
 
 section.cover p { background-color: transparent; }
+
+a.def { text-decoration: none; color: inherit; border-bottom: 1px dashed #9c9; }
